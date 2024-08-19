@@ -1269,8 +1269,6 @@
   #endif
 #endif
 
-
-
 /**
  * Junction Deviation Factor
  *
