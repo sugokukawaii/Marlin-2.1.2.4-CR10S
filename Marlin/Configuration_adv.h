@@ -21,7 +21,7 @@
  */
 #pragma once
 
-#define CONFIG_EXAMPLES_DIR "config/examples/Creality/CR-10S/BigTreeTech SKR Mini E3 2.0"
+#define CONFIG_EXAMPLES_DIR "Creality/CR-10S/BigTreeTech SKR Mini E3 3.0"
 
 /**
  * Configuration_adv.h
@@ -2289,7 +2289,7 @@
 //
 // G2/G3 Arc Support
 //
-//#define ARC_SUPPORT                 // Requires ~3226 bytes
+#define ARC_SUPPORT                 // Requires ~3226 bytes
 #if ENABLED(ARC_SUPPORT)
   #define MIN_ARC_SEGMENT_MM      0.1 // (mm) Minimum length of each arc segment
   #define MAX_ARC_SEGMENT_MM      1.0 // (mm) Maximum length of each arc segment
